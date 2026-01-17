@@ -19,7 +19,8 @@
 - would be filtered at typeof value === "object" though
 - Object.getPrototypeOf(value) === null to handle Object.create(null) 
 
-image.png
+<img width="540" height="494" alt="Screenshot 2026-01-18 at 12 13 48 AM" src="https://github.com/user-attachments/assets/8b3dd9a8-7ffc-4862-9cc0-02e6366e29d8" />
+
 #### Core Concept
 - Every JavaScript object has an internal slot called `[[Prototype]]`
 - `[[Prototype]]` defines inheritance and property lookup
