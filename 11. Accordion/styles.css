@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: darkgoldenrod;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.accordion {
+  background-color: blanchedalmond;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.acc-header {
+  color: darkslategray;
+}
+
+.acc-content {
+  margin-top: 12px;
+  border-top: 1px solid lightgray;
+  padding-top: 12px;
+}
+.accordion-icon {
+  border: solid currentcolor;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  height: 6px;
+  pointer-events: none;
+  transform: translateY(-2px) rotate(45deg);
+  width: 6px;
+  margin-left: 4px;
+}
+
+.accordion-icon--rotated {
+  transform: translateY(2px) rotate(-135deg);
+}
